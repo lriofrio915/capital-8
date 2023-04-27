@@ -19,6 +19,8 @@
     "react-use-dark-mode": "^2.0.3"
   },
   "devDependencies": {
-    "sass": "^1.62.0"
+    "node-sass": "^7.0.3",
+    "sass": "^1.62.0",
+    "sass-loader": "^13.2.2"
   }
 }

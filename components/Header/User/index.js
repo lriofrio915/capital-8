@@ -5,7 +5,7 @@ import cn from "classnames";
 import OutsideClickHandler from "react-outside-click-handler";
 import styles from "./User.module.sass";
 import Icon from "../../Icon";
-// import Theme from "../../Theme";
+import Theme from "../../Theme";
 
 const items = [
   {
@@ -87,7 +87,7 @@ const User = ({ className }) => {
                   <div className={styles.details}>
                     <div className={styles.line}>
                       <div className={styles.title}>{x.title}</div>
-                      {/* <Theme className={styles.theme} small /> */}
+                      <Theme className={styles.theme} small />
                     </div>
                     <div className={styles.content}>{x.content}</div>
                   </div>

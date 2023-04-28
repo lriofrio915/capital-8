@@ -7,7 +7,7 @@ import Dropdown from "./Dropdown";
 import Icon from "../Icon";
 import Notifications from "./Notifications";
 import User from "./User";
-// import Theme from "../Theme";
+import Theme from "../Theme";
 
 
 const navigation = [
@@ -120,7 +120,7 @@ const Header = ({ headerWide }) => {
             >
               Billetera
             </Link>
-            {/* <Theme className={styles.theme} icon /> */}
+            <Theme className={styles.theme} icon />
             <User className={styles.user} />
           </div>
           <div className={styles.btns}>
